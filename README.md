@@ -10,13 +10,21 @@ This repository contains the implementation plan and resources for establishing 
 ### Priority 1: FWA + IRB Registration (OHRP)
 **Timeline:** 4-6 weeks processing (critical path)
 **Cost:** Free
-**Where:** [OHRP Electronic System](https://www.hhs.gov/ohrp)
+**Where:** [OHRP Electronic Filing System](https://ohrp.cit.nih.gov/efile/) | [OHRP Home](https://www.hhs.gov/ohrp)
+
+**Key Links:**
+- [File a New FWA](https://ohrp.cit.nih.gov/efile/) - Electronic filing portal
+- [FWA Instructions](https://www.hhs.gov/ohrp/register-irbs-and-obtain-fwas/forms/fwa-instructions/index.html)
+- [FWA Form](https://www.hhs.gov/ohrp/register-irbs-and-obtain-fwas/forms/fwa-form-2017/index.html)
+- [FWA Terms](https://www.hhs.gov/ohrp/register-irbs-and-obtain-fwas/fwas/fwa-protection-of-human-subjecct/index.html)
+- [Assurance Process FAQs](https://www.hhs.gov/ohrp/regulations-and-policy/guidance/faq/assurance-process/index.html)
+- OHRP Contact: IRBorFWA@hhs.gov | (866) 447-4777
 
 #### Federalwide Assurance (FWA) Application
 - [ ] Obtain President's signed authorization letter
 - [ ] Identify and designate IRB Chair (name + contact info)
 - [ ] Define planned IRB composition (member roster)
-- [ ] File FWA application through OHRP's electronic system
+- [ ] File FWA application through [OHRP's electronic system](https://ohrp.cit.nih.gov/efile/)
 
 #### IRB Registration (Separate from FWA, same portal)
 - [ ] Register the IRB as a board (name, chair, member roster)
@@ -78,4 +86,6 @@ Get the President's signature and IRB Chair identified, then file the FWA as soo
 
 ## Repository Contents
 - `Wiley_University_IRB_Plan_of_Action.docx` - Detailed plan of action document
+- `Presidential_Authorization_Letter_FWA.pdf` - Presidential authorization letter for FWA filing
+- `Presidential_Authorization_Letter_FWA.html` - Editable HTML source of the authorization letter
 - `README.md` - This implementation roadmap
