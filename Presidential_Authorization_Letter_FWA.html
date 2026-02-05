@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Presidential Authorization Letter - Federalwide Assurance</title>
+    <style>
+        @page {
+            size: letter;
+            margin: 0;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', 'Times New Roman', serif;
+            font-size: 12pt;
+            line-height: 1.5;
+            color: #333333;
+            background: #ffffff;
+            width: 8.5in;
+            min-height: 11in;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        /* Header / Letterhead */
+        .letterhead {
+            padding: 0.6in 0.75in 0.3in 0.75in;
+            border-bottom: 3px solid #65538f;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+        }
+
+        .letterhead img {
+            height: 80px;
+        }
+
+        .letterhead-info {
+            text-align: right;
+            font-family: 'Calibri', 'Helvetica Neue', Arial, sans-serif;
+            font-size: 9pt;
+            color: #65538f;
+            line-height: 1.4;
+        }
+
+        .letterhead-info .office-title {
+            font-weight: bold;
+            font-size: 10pt;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 4px;
+        }
+
+        /* Body */
+        .letter-body {
+            padding: 0.4in 0.75in 0.5in 0.75in;
+        }
+
+        .date {
+            margin-bottom: 24pt;
+        }
+
+        .recipient {
+            margin-bottom: 18pt;
+            line-height: 1.4;
+        }
+
+        .salutation {
+            margin-bottom: 14pt;
+        }
+
+        .paragraph {
+            margin-bottom: 12pt;
+            text-align: justify;
+        }
+
+        .paragraph.indent {
+            text-indent: 0.5in;
+        }
+
+        .commitments-list {
+            margin: 8pt 0 12pt 0.5in;
+            line-height: 1.5;
+        }
+
+        .commitments-list li {
+            margin-bottom: 6pt;
+        }
+
+        .closing {
+            margin-top: 28pt;
+            line-height: 1.4;
+        }
+
+        .signature-block {
+            margin-top: 60pt;
+        }
+
+        .signature-line {
+            width: 3in;
+            border-bottom: 1px solid #333;
+            margin-bottom: 4pt;
+        }
+
+        .signature-name {
+            font-weight: bold;
+            color: #65538f;
+        }
+
+        .signature-title {
+            font-style: italic;
+            font-size: 11pt;
+        }
+
+        .date-line {
+            margin-top: 24pt;
+        }
+
+        .date-line .signature-line {
+            width: 2in;
+        }
+
+        /* Footer */
+        .footer {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: 0.3in 0.75in;
+            border-top: 2px solid #65538f;
+            text-align: center;
+            font-family: 'Calibri', 'Helvetica Neue', Arial, sans-serif;
+            font-size: 8pt;
+            color: #65538f;
+            line-height: 1.5;
+        }
+
+        .footer .address-line {
+            letter-spacing: 0.5px;
+        }
+
+        @media print {
+            body {
+                margin: 0;
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Letterhead -->
+    <div class="letterhead">
+        <img src="wiley-logo-purple.png" alt="Wiley University">
+        <div class="letterhead-info">
+            <div class="office-title">Office of the President</div>
+            711 Wiley Avenue<br>
+            Marshall, Texas 75670<br>
+            Phone: (903) 927-3201<br>
+            www.wileyc.edu
+        </div>
+    </div>
+
+    <!-- Letter Body -->
+    <div class="letter-body">
+
+        <p class="date">February 5, 2026</p>
+
+        <div class="recipient">
+            Office for Human Research Protections (OHRP)<br>
+            U.S. Department of Health and Human Services<br>
+            1101 Wootton Parkway, Suite 200<br>
+            Rockville, MD 20852
+        </div>
+
+        <p class="salutation"><strong>Re: Authorization to File a Federalwide Assurance (FWA) for the Protection of Human Subjects</strong></p>
+
+        <p class="paragraph">Dear OHRP Officials:</p>
+
+        <p class="paragraph indent">
+            I, Dr. Herman J. Felton, Jr., in my capacity as President and Chief Executive Officer of Wiley University, am writing to formally authorize the filing of a Federalwide Assurance (FWA) with the Office for Human Research Protections (OHRP) in accordance with the requirements of Title 45, Code of Federal Regulations, Part 46 (45 CFR 46), commonly known as the Common Rule.
+        </p>
+
+        <p class="paragraph indent">
+            Wiley University is committed to the ethical conduct of research involving human subjects and to upholding the principles set forth in <em>The Belmont Report: Ethical Principles and Guidelines for the Protection of Human Subjects of Research</em>. As an institution of higher learning with a rich history dating back to 1873, Wiley University recognizes the importance of safeguarding the rights, welfare, and well-being of all individuals who participate in research conducted under our auspices.
+        </p>
+
+        <p class="paragraph indent">
+            By authorizing this Federalwide Assurance, Wiley University commits to the following:
+        </p>
+
+        <ol class="commitments-list">
+            <li>All human subjects research activities conducted under the auspices of Wiley University will be guided by the ethical principles outlined in <em>The Belmont Report</em>, including respect for persons, beneficence, and justice.</li>
+            <li>Wiley University will establish and maintain an Institutional Review Board (IRB) that meets the requirements of 45 CFR 46, including appropriate membership composition, to review and provide continuing oversight of all human subjects research covered by this Assurance.</li>
+            <li>The institution will provide sufficient resources, meeting space, and qualified staff to support the IRB in fulfilling its review and recordkeeping responsibilities.</li>
+            <li>Wiley University will ensure that all investigators and IRB members complete appropriate human subjects research training through the Collaborative Institutional Training Initiative (CITI Program) or an equivalent program prior to engaging in human subjects research activities.</li>
+            <li>The institution will establish written procedures for the prompt reporting of unanticipated problems involving risks to subjects or others, serious or continuing noncompliance with federal regulations or IRB requirements, and any suspension or termination of IRB approval to the IRB, appropriate institutional officials, the head of any supporting federal department or agency, and OHRP.</li>
+            <li>Wiley University will comply with all applicable federal, state, and local laws, regulations, and policies pertaining to the protection of human subjects in research, including HHS Subparts B, C, D, and E of 45 CFR 46 when engaged in non-exempt human subjects research conducted or supported by HHS.</li>
+        </ol>
+
+        <p class="paragraph indent">
+            I affirm that all information provided in connection with this Assurance is accurate and current, and I understand that any false statements may be cause for invalidation of the Assurance and may lead to additional administrative or legal action. I am fully authorized to represent and commit Wiley University and all of its components to the terms of this Federalwide Assurance.
+        </p>
+
+        <p class="paragraph indent">
+            Wiley University stands ready to fulfill its obligations under this Assurance and looks forward to fostering a culture of responsible and ethical research that serves both our academic community and the public good.
+        </p>
+
+        <div class="closing">
+            <p>Respectfully submitted,</p>
+
+            <div class="signature-block">
+                <div class="signature-line"></div>
+                <p class="signature-name">Dr. Herman J. Felton, Jr., Ph.D., J.D.</p>
+                <p class="signature-title">17th President &amp; Chief Executive Officer</p>
+                <p class="signature-title">Wiley University</p>
+            </div>
+
+            <div class="date-line">
+                <p style="margin-bottom: 4pt;">Date:</p>
+                <div class="signature-line"></div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="address-line">
+            711 Wiley Avenue &bull; Marshall, Texas 75670 &bull; (903) 927-3300 &bull; www.wileyc.edu
+        </div>
+        <div><em>A Historically Black University &bull; Founded 1873 &bull; United Methodist Church</em></div>
+    </div>
+
+</body>
+</html>
