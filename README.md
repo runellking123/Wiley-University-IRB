@@ -86,6 +86,7 @@ Get the President's signature and IRB Chair identified, then file the FWA as soo
 
 ## Repository Contents
 - `Wiley_University_IRB_Plan_of_Action.docx` - Detailed plan of action document
+- `FWA_Application_Prep_Guide.md` - Complete field-by-field FWA application guide with checklist
 - `Presidential_Authorization_Letter_FWA.pdf` - Presidential authorization letter for FWA filing
 - `Presidential_Authorization_Letter_FWA.html` - Editable HTML source of the authorization letter
 - `README.md` - This implementation roadmap
